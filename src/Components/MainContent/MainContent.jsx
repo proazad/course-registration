@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Carts from "../Carts/Carts";
 import Courses from "../Courses/Courses";
 const MainContent = () => {
@@ -18,17 +20,34 @@ const MainContent = () => {
     const InitialCredit = 20;
     const isExist = selectedCourse.find((item) => item.id === course.id);
     if (isExist) {
-      return alert("Already Selected !");
+      return toast.error("🦄 Sorry! this Course is already Selected", {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
     } else {
       selectedCourse.forEach((item) => {
         TotalCredit += item.credits;
         TotalPrice += item.price;
       });
       if (TotalCredit > 20) {
-        return alert("Sorry! Insufficient Credit");
+        return toast.error("🦄 Sorry! You have not enough credits", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+          });
       } else {
-
-        setRemainingCredit(InitialCredit - TotalCredit)
+        setRemainingCredit(InitialCredit - TotalCredit);
         setCredit(TotalCredit);
         const twoDigit = TotalPrice.toFixed(2);
         setPrice(twoDigit);
@@ -52,6 +71,7 @@ const MainContent = () => {
           remainingCredit={remainingCredit}
         ></Carts>
       </div>
+      {<ToastContainer />}
     </div>
   );
 };
