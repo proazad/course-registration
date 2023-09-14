@@ -1,7 +1,10 @@
+import Header from "./Components/Header/Header"
+import MainContent from "./Components/MainContent/MainContent"
 function App() {
   return (
     <>
-      <h1>Course Registration</h1>
+      <Header></Header>
+      <MainContent></MainContent>
     </>
   )
 }
