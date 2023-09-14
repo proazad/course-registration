@@ -1,13 +1,13 @@
 import PropTypes from "prop-types";
 import credit from "../../assets/credit.svg";
 import dollar from "../../assets/dollar.svg";
-import image from "../../assets/images/Rectangle 2-1.png";
+// import image from "../../assets/images/Rectangle 2-1.png";
 const Course = ({ course, handleSelectedCourse }) => {
-  const { title, price, credits, description } = course;
+  const { title, price, image, credits, description } = course;
   return (
     <div className="card p-3 bg-base-100 shadow-xl rounded-md">
       <figure className="">
-        <img src={image} alt={title} className="rounded-md " />
+        <img src={image} alt={title} className="rounded-md w-full h-40" />
       </figure>
       <div className="p-2 space-y-4">
         <div className="h-24">

@@ -3,15 +3,15 @@
     "id": "101",
     "title": "Python Programming",
     "description": "Learn Python programming from scratch. This course covers basic to advanced concepts.",
-    "image": "python_course.jpg",
+    "image": "https://i.ibb.co/Z1M3sXs/How-to-Learn-Python.jpg",
     "price": 49.99,
-    "credits": 3
+    "credits": 7
   },
   {
     "id": "102",
     "title": "Java Fundamentals",
     "description": "Master the fundamentals of Java programming with hands-on exercises and projects.",
-    "image": "java_course.jpg",
+    "image": "https://i.ibb.co/PhmnYrj/java.jpg",
     "price": 59.99,
     "credits": 4
   },
@@ -19,39 +19,39 @@
     "id": "103",
     "title": "JavaScript Web Development",
     "description": "Build interactive web applications using JavaScript, HTML, and CSS.",
-    "image": "javascript_course.jpg",
+    "image": "https://i.ibb.co/t8y4FV9/javascript-hero-1652702096795.webp",
     "price": 69.99,
-    "credits": 4
+    "credits": 2
   },
   {
     "id": "104",
     "title": "C++ Programming",
     "description": "Deep dive into C++ programming with focus on data structures and algorithms.",
-    "image": "cpp_course.jpg",
+    "image": "https://i.ibb.co/xYFVwc8/cplus.jpg",
     "price": 54.99,
-    "credits": 3
+    "credits": 10
   },
   {
     "id": "105",
     "title": "Ruby on Rails for Beginners",
     "description": "Start your journey into web development with Ruby on Rails framework.",
-    "image": "ruby_course.jpg",
+    "image": "https://i.ibb.co/4N2sfD6/ruby.jpg",
     "price": 49.99,
-    "credits": 3
+    "credits": 9
   },
   {
     "id": "106",
     "title": "Swift App Development",
     "description": "Develop iOS and macOS apps with Swift programming language.",
-    "image": "swift_course.jpg",
+    "image": "https://i.ibb.co/XxW61M5/swift.jpg",
     "price": 79.99,
-    "credits": 4
+    "credits": 11
   },
   {
     "id": "107",
-    "title": "PHP Web Development",
+    "title": "Web Development with PHP",
     "description": "Create dynamic websites using PHP and MySQL for database integration.",
-    "image": "php_course.jpg",
+    "image": "https://i.ibb.co/DLN6rww/php.png",
     "price": 59.99,
     "credits": 3
   },
@@ -59,7 +59,7 @@
     "id": "108",
     "title": "Go (Golang) Programming",
     "description": "Learn Go programming language for efficient and concurrent software development.",
-    "image": "golang_course.jpg",
+    "image": "https://i.ibb.co/xsYVj6z/go.jpg",
     "price": 64.99,
     "credits": 3
   },
@@ -67,7 +67,7 @@
     "id": "109",
     "title": "Rust Programming Mastery",
     "description": "Master Rust, a systems programming language known for its safety and performance.",
-    "image": "rust_course.jpg",
+    "image": "https://i.ibb.co/h2JLZ94/rust.jpg",
     "price": 69.99,
     "credits": 4
   },
@@ -75,7 +75,7 @@
     "id": "110",
     "title": "Scala Functional Programming",
     "description": "Explore functional programming with Scala, a versatile JVM language.",
-    "image": "scala_course.jpg",
+    "image": "https://i.ibb.co/LdpkxFj/scala.jpg",
     "price": 59.99,
     "credits": 3
   },
@@ -83,7 +83,7 @@
     "id": "111",
     "title": "Haskell for Advanced Developers",
     "description": "Take your functional programming skills to the next level with Haskell.",
-    "image": "haskell_course.jpg",
+    "image": "https://i.ibb.co/QYC9j7n/Haskell-Programming-Language-jpg.webp",
     "price": 74.99,
     "credits": 4
   },
@@ -91,23 +91,23 @@
     "id": "112",
     "title": "Dart and Flutter App Development",
     "description": "Build cross-platform mobile apps with Dart and the Flutter framework.",
-    "image": "dart_flutter_course.jpg",
+    "image": "https://i.ibb.co/4Vc4Tvw/flutter.png",
     "price": 69.99,
-    "credits": 3
+    "credits": 2
   },
   {
     "id": "113",
     "title": "SQL Database Fundamentals",
     "description": "Learn SQL for database management and querying. Build and optimize databases.",
-    "image": "sql_course.jpg",
+    "image": "https://i.ibb.co/CzDsF3F/sql.webp",
     "price": 49.99,
-    "credits": 3
+    "credits": 7
   },
   {
     "id": "114",
     "title": "Kotlin App Development",
     "description": "Develop Android apps with Kotlin, a modern and concise programming language.",
-    "image": "kotlin_course.jpg",
+    "image": "https://i.ibb.co/tJBnWDk/kotlin.png",
     "price": 69.99,
     "credits": 4
   },
@@ -115,15 +115,15 @@
     "id": "115",
     "title": "Perl Scripting Mastery",
     "description": "Become proficient in Perl scripting for automation and web development.",
-    "image": "perl_course.jpg",
+    "image": "https://i.ibb.co/Y7HrR7n/prl.png",
     "price": 54.99,
-    "credits": 3
+    "credits": 6
   },
   {
     "id": "116",
     "title": "TypeScript Essentials",
     "description": "Get started with TypeScript to enhance JavaScript development for large-scale projects.",
-    "image": "typescript_course.jpg",
+    "image": "https://i.ibb.co/82pym1z/typescript.jpg",
     "price": 59.99,
     "credits": 3
   },
@@ -131,15 +131,15 @@
     "id": "117",
     "title": "Django Web Framework",
     "description": "Build robust web applications with Django, a high-level Python web framework.",
-    "image": "django_course.jpg",
+    "image": "https://i.ibb.co/wRzXCy4/django.jpg",
     "price": 74.99,
-    "credits": 4
+    "credits": 1
   },
   {
     "id": "118",
     "title": "Elixir Functional Programming",
     "description": "Explore concurrent, fault-tolerant programming with Elixir and the BEAM VM.",
-    "image": "elixir_course.jpg",
+    "image": "https://i.ibb.co/Cwcthjd/elixer.png",
     "price": 64.99,
     "credits": 3
   },
@@ -147,48 +147,8 @@
     "id": "119",
     "title": "R Programming for Data Science",
     "description": "Learn R for data analysis, visualization, and statistical modeling.",
-    "image": "r_course.jpg",
+    "image": "https://i.ibb.co/R4SKwTc/r.jpg",
     "price": 59.99,
-    "credits": 3
-  },
-  {
-    "id": "120",
-    "title": "Perl Scripting Mastery",
-    "description": "Become proficient in Perl scripting for automation and web development.",
-    "image": "perl_course.jpg",
-    "price": 54.99,
-    "credits": 3
-  },
-  {
-    "id": "121",
-    "title": "Scala Functional Programming",
-    "description": "Explore functional programming with Scala, a versatile JVM language.",
-    "image": "scala_course.jpg",
-    "price": 59.99,
-    "credits": 3
-  },
-  {
-    "id": "122",
-    "title": "Golang Web Development",
-    "description": "Build web applications and REST APIs using Go (Golang) programming.",
-    "image": "golang_web_course.jpg",
-    "price": 69.99,
-    "credits": 3
-  },
-  {
-    "id": "123",
-    "title": "Rust Systems Programming",
-    "description": "Master systems programming with Rust for performance-critical applications.",
-    "image": "rust_systems_course.jpg",
-    "price": 79.99,
-    "credits": 4
-  },
-  {
-    "id": "124",
-    "title": "Full Stack JavaScript Development",
-    "description": "Become a full-stack developer with JavaScript, Node.js, and MongoDB.",
-    "image": "fullstack_js_course.jpg",
-    "price": 79.99,
-    "credits": 4
+    "credits": 10
   }
 ]
