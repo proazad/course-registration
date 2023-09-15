@@ -18,6 +18,7 @@ const MainContent = () => {
     let TotalCredit = course.credits;
     let TotalPrice = course.price;
     const InitialCredit = 20;
+
     const isExist = selectedCourse.find((item) => item.id === course.id);
     if (isExist) {
       return toast.error("🦄 Sorry! this Course is already Selected", {
@@ -31,10 +32,12 @@ const MainContent = () => {
         theme: "light",
       });
     } else {
+
       selectedCourse.forEach((item) => {
         TotalCredit += item.credits;
         TotalPrice += item.price;
       });
+
       if (TotalCredit > 20) {
         return toast.error("🦄 Sorry! You have not enough credits", {
             position: "top-right",
@@ -49,12 +52,13 @@ const MainContent = () => {
       } else {
         setRemainingCredit(InitialCredit - TotalCredit);
         setCredit(TotalCredit);
+
         const twoDigit = TotalPrice.toFixed(2);
         setPrice(twoDigit);
       }
+      
       setSelectedCourse([...selectedCourse, course]);
     }
-    console.log(remainingCredit);
   };
 
   return (
